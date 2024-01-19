@@ -16,8 +16,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@planopax'
       - run: npm install
-      - run: npm prepare
-      - run: npm build
+      - run: npm run prepare
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.TOKEN}}

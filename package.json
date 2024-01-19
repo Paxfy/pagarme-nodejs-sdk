@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/pagarme/",
     "email": "suporte@pagar.me"
+  },
+  "publishConfig": {
+    "@planopax:registry": "https://npm.pkg.github.com"
   }
 }

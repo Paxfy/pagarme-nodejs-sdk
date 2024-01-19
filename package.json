@@ -25,7 +25,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@planopax/pagarmeapisdklib",
+  "name": "@paxfy/pagarme-nodejs-sdk",
   "description": "Pagarme API",
   "author": {
     "name": "Pagar.me Pagamentos S/A",
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:paxfy/pagarme-nodejs-sdk.git"
+    "url": "git@github.com:Paxfy/pagarme-nodejs-sdk.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

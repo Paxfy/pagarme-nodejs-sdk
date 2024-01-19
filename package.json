@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Plano-Pax/pagarme-nodejs-sdk.git"
+    "url": "git@github.com:paxfy/pagarme-nodejs-sdk.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

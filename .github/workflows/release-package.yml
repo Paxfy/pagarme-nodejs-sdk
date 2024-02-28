@@ -16,7 +16,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@paxfy'
       - run: npm install
-      - run: npm run prepare
+      - run: echo registry=https://npm.pkg.github.com/paxfy >> .npmrc
       - run: npm run build
       - run: npm publish
         env:

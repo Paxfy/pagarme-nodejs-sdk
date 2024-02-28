@@ -67,7 +67,7 @@ export const getBoletoTransactionResponseSchema: Schema<any> = object({
   pdfPassword: ['pdf_password', optional(nullable(string()))],
   pdf: ['pdf', optional(nullable(string()))],
   paidAt: ['paid_at', optional(nullable(string()))],
-  paidAmount: ['paid_amount', optional(nullable(string()))],
+  paidAmount: ['paid_amount', optional(nullable(number()))],
   type: ['type', optional(nullable(string()))],
   creditAt: ['credit_at', optional(nullable(string()))],
   statementDescriptor: ['statement_descriptor', optional(nullable(string()))],

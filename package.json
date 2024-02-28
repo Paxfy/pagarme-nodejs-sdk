@@ -25,7 +25,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@Paxfy/pagarme-nodejs-sdk",
+  "name": "@paxfy/pagarme-nodejs-sdk",
   "description": "Pagarme API",
   "author": {
     "name": "Pagar.me Pagamentos S/A",
